@@ -9,7 +9,7 @@
 
 # Soal Latihan Praktikum ( Pegawai )
 
-![alt text](<Screenshot soal.p.png>)
+(<Screenshot soal.p.png>)
 
 **Perintah SQL :**
 

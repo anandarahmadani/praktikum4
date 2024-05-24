@@ -9,7 +9,7 @@
 
 # Soal Latihan Praktikum ( Pegawai )
 
-(<Screenshot soal.p.png>)
+![Screenshot soal p](https://github.com/anandarahmadani/praktikum4/assets/147919907/4eceb52c-94ae-4517-9bf6-42b5eb5317e9)
 
 **Perintah SQL :**
 
@@ -37,7 +37,8 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-![alt text](<Screenshot sql.p.png>)
+![Screenshot sql p](https://github.com/anandarahmadani/praktikum4/assets/147919907/4bf30343-21fd-4a7e-9e33-90a577481ca9)
+
 
 ## Tugas Praktikum
 
@@ -49,7 +50,8 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![alt text](<Screenshot 1.p.png>)
+![Screenshot 1 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/0631f7e8-8aca-48ef-a828-3856da4eb995)
+
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
 
@@ -58,8 +60,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 2.p.png>)
+![Screenshot 2 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/a4bc458f-089d-4cd5-9197-c4a541591502)
 
 **3. Tampilkan pegawai yang tunjangannya tidak NULL!**
 
@@ -68,8 +69,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NOT NULL;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 3.p.png>)
+![Screenshot 3 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/d5e0c45b-66b0-49eb-b31f-0585a5feaee4)
 
 **4. Tampilkan/hitung jumlah baris/record tabel pegawai!**
 
@@ -78,8 +78,7 @@ SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 4.p.png>)
+![Screenshot 4 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/2805ac6c-4bec-4935-92bf-30da528576cc)
 
 **5. Tampilkan/hitung jumlah total gaji di tabel pegawai!**
 
@@ -88,8 +87,7 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 5.p.png>)
+![Screenshot 5 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/f1e5d0ba-83b2-4b24-b696-3c336804c214)
 
 **6. Tampilkan/hitung rata-rata gaji pegawai!**
 
@@ -98,8 +96,8 @@ SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 ```
 
 ***Output :***
+![Screenshot 6 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/76819225-721e-443a-9fca-e307b8fadad0)
 
-![alt text](<Screenshot 6.p.png>)
 
 **7. Tampilkan gaji terkecil!**
 
@@ -108,8 +106,7 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 7.p.png>)
+![Screenshot 7 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/71ee075b-1baf-4eed-baab-99a8b0d4a32b)
 
 **8. Tampilkan gaji terbesar!**
 
@@ -118,12 +115,10 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 8.p.png>)
+![Screenshot 8 p](https://github.com/anandarahmadani/praktikum4/assets/147919907/11f7db1a-5e80-455a-882e-e16fe625a517)
 
 # Soal Latihan Praktikum ( Hewan )
-
-![alt text](<Screenshot soal.h.png>)
+![Screenshot soal h](https://github.com/anandarahmadani/praktikum4/assets/147919907/acc84187-15cc-4c2b-b20f-f45f01cb1ec9)
 
 **Perintah SQL :**
 
@@ -149,8 +144,7 @@ INSERT INTO hewan VALUES
 ```
 
 ***Output :***
-
-![alt text](<Screenshot sql.h-1.png>)
+![Screenshot sql h-1](https://github.com/anandarahmadani/praktikum4/assets/147919907/7e46ea1a-31fd-443c-8d78-63340a53aa0c)
 
 ## Tugas Praktikum
 
@@ -161,8 +155,7 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 1.h.png>)
+![Screenshot 1 h](https://github.com/anandarahmadani/praktikum4/assets/147919907/10d93891-235d-44c5-a183-c83a8646d9e4)
 
 **2. Tampilkan jumlah hewan berdasarkan spesies**
 
@@ -171,8 +164,7 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 2.h.png>)
+![Screenshot 2 h](https://github.com/anandarahmadani/praktikum4/assets/147919907/8bf076b8-fdb1-42a9-83cd-6d7a63050b3a)
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
 
@@ -181,8 +173,7 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 3.h.png>)
+![Screenshot 3 h](https://github.com/anandarahmadani/praktikum4/assets/147919907/1c7c0686-1160-48cf-a0dc-783046eafea3)
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
@@ -191,8 +182,7 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 4.h.png>)
+![Screenshot 4 h](https://github.com/anandarahmadani/praktikum4/assets/147919907/b9a5a312-acad-40b8-8e4b-9cfc6e76513b)
 
 **5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin**
 
@@ -203,8 +193,7 @@ GROUP BY species, sex;
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 5.h.png>)
+![Screenshot 5 h](https://github.com/anandarahmadani/praktikum4/assets/147919907/b2e2a6e0-694c-4c52-8333-2e9a476408f8)
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
@@ -213,8 +202,7 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 ```
 
 ***Output :***
-
-![alt text](<Screenshot 6.h.png>)
+![Screenshot 6 h](https://github.com/anandarahmadani/praktikum4/assets/147919907/1252ff57-22d8-47fd-98d1-19e38335afb6)
 
 ## Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
